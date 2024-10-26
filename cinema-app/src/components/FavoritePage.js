@@ -10,7 +10,7 @@ const FavoritePage = () => {
 
   return (
     <div className="favorite-page">
-      <h1>Your Favorite Movies</h1>
+      <h1 style={{ transform: "translateY(200px)" }}>Your Favorite Movies</h1>
       <div className="movie-grid">
         {favorites.length > 0 ? (
           favorites.map((movie, index) => (
